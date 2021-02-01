@@ -5,6 +5,8 @@
     .header {
         @include df-fdr-sb;
 
+    margin-bottom: 22rem;
+
         .mobile-nav {
             display: none;
         }
