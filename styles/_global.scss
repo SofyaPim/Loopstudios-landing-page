@@ -1,0 +1,99 @@
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$DarkGray: hsl(0, 0%, 11%);
+$VeryDarkGray: hsl(0, 0%, 41%);
+@font-face {
+   font-family: 'Alata', sans-serif;
+   src: url("styles/fonts/Alata/Alata-Regular.ttf") format(ttf);
+
+}
+@font-face {
+   font-family: 'Josefin Sans', sans-serif;
+   src: url("/styles/fonts/Josefin_Sans/static/JosefinSans-Light.ttf") format(ttf);
+}
+
+@mixin h2 {
+   text-transform: uppercase;
+            font-weight: 100;
+            font-size: 2.4rem;
+            color:$DarkGray;
+}
+
+
+@mixin df-fdr-sb{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+*:root{
+    font-size: 15px;
+}
+*{
+   box-sizing: border-box;
+}
+
+body {
+  
+
+   font-family: 'Alata', sans-serif;
+}
+section{
+   padding: 4.2rem 10rem;
+}
+.wrapper{
+   max-width: 1440px;
+}
+.logo {
+   width: 12.9rem;
+   height: 3.13em;
+   background-image: url("/images/logo.svg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   z-index: 99;
+}
+.nav__links{
+   display: inline-block;
+   position: relative;
+   text-decoration: none;
+   color: $White;
+   font-family: 'Josefin Sans', sans-serif;
+   margin-left: 2rem;
+
+   &::before {
+       content: "";
+       display: block;
+       width: 0em;
+       height: 2px;
+       position: absolute;
+       left: .3rem;
+       bottom: -1rem;
+       transition: width 300ms ease-in-out;
+       background-color: $White;
+   }
+
+   &:hover {
+       &::before {
+           width: 2rem;
+       }
+   }
+}
+.card-header{
+   position: absolute;
+   text-transform: uppercase;
+            font-weight: 100;
+            font-size: 2rem;
+            color:$White;
+}
+.attribution {
+   font-size: 11px;
+   text-align: center;
+
+   a {
+       color: hsl(228, 45%, 44%);
+   }
+}
+@media all and (max-width: 1024px){
+   section{
+      padding: 2rem 1rem;
+   }
+}

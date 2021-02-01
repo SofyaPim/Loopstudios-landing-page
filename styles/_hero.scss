@@ -1,0 +1,131 @@
+.hero {
+    background-image: url("/images/desktop/image-hero.jpg");
+    background-size: cover;
+
+    .header {
+        @include df-fdr-sb;
+
+        .mobile-nav {
+            display: none;
+        }
+    }
+
+    &__text {
+        width: 38.2rem;
+
+        h1 {
+            padding: 2.3rem;
+            color: $White;
+            border: 1px solid $White;
+            text-transform: uppercase;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 100;
+            font-size: 4.2rem;
+            margin-bottom: 0rem;
+            margin-top: 0rem;
+
+        }
+    }
+}
+
+@media all and (max-width:600px) {
+    .hero {
+        .header {
+            &__logo {
+                width: 10rem;
+                background-size: contain;
+            }
+
+            &__nav {
+                padding: 1rem;
+
+                .mobile-nav {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 2rem;
+                    height: 1.5rem;
+
+                    span {
+                        z-index: 99;
+                        display: block;
+                        width: 2rem;
+                        height: 2px;
+                        background-color: $White;
+                    }
+                }
+
+                .desktop-nav {
+                    display: none;
+                }
+
+                .mobile-menu {
+
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    position: absolute;
+                    z-index: 90;
+                    width: 100vw;
+                    height: auto;
+                    margin: 0 auto;
+                    top: 0;
+                    left: 0;
+                    font-weight: 100;
+                    background-color: $Black;
+
+                    a {
+                        &:first-child {
+                            margin-top: 20rem;
+                        }
+                        text-transform: uppercase;
+                        opacity: .8;
+                        font-size: 1.8rem;
+                        margin-bottom: 1.5rem;
+
+                        &:last-child {
+                            margin-bottom: 20rem;
+                        }
+
+                        &::before {
+
+                            bottom: -.8rem;
+
+                        }
+                    }
+                }
+
+            }
+        }
+
+        &__text {
+            width: 100%;
+
+            h1 {
+                padding: 2rem;
+                font-weight: 100;
+                font-size: 2.8rem;
+                margin-bottom: 18rem;
+                margin-top: 13rem;
+            }
+        }
+    }
+}
+
+.topLineMenu {
+    transform: rotate(-45deg);
+    margin-bottom: -20px;
+}
+
+.bottomLineMenu {
+    transform: rotate(45deg);
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.visible {
+    display: block;
+}

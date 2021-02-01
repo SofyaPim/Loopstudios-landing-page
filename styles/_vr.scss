@@ -1,0 +1,73 @@
+.vr {
+    background-color: $White;
+    position: relative;
+    color: $VeryDarkGray;
+
+    &__img {
+        width: 48.3rem;
+        height: 32.5rem;
+        background-image: url("/images/desktop/image-interactive.jpg");
+        background-position: 0 0;
+    }
+
+    .container {
+        width: 39rem;
+        height: 27rem;
+    }
+
+    &__text {
+        font-family: 'Alanta', sans-serif;
+        padding: 6.4rem;
+        position: absolute;
+        top: 39%;
+        left: 54%;
+        background-color: $White;
+
+        h2 {
+            @include h2;
+
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    }
+}
+
+@media all and (max-width: 1290px) {
+    .vr {
+        &__text {
+            position: relative;
+            top: 3%;
+            left: 5%;
+        }
+    }
+}
+
+@media all and (max-width: 780px) {
+    .vr {
+        &__img {
+            width: 100%;
+
+        }
+        .container {
+            width: 100%;
+            height: auto;
+        }
+
+        &__text {
+            text-align: center;
+            padding: 1.9rem;
+            top: 0;
+            left: 0;
+            h2 {
+                @include h2;
+            }
+
+            p {
+                line-height: 2;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
