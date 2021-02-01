@@ -1,33 +1,33 @@
 const galleryCard__mob = [{
         title: "Deep earth",
-        mobPhoto: "/images/mobile/image-deep-earth.jpg"
+        mobPhoto: "https://sofyapim.github.io/Loopstudios-landing-page/images/mobile/image-deep-earth.jpg"
     },
     {
         title: "Night arcade",
-        mobPhoto: "/images/mobile/image-night-arcade.jpg"
+        mobPhoto: "https://sofyapim.github.io/Loopstudios-landing-page/images/mobile/image-night-arcade.jpg"
     },
     {
         title: "Soccer team VR",
-        mobPhoto: "/images/mobile/image-soccer-team.jpg"
+        mobPhoto: "https://sofyapim.github.io/Loopstudios-landing-page/images/mobile/image-soccer-team.jpg"
     },
     {
         title: "The grid",
-        mobPhoto: "/images/mobile/image-grid.jpg"
+        mobPhoto: "https://sofyapim.github.io/Loopstudios-landing-page/images/mobile/image-grid.jpg"
     }, {
         title: "From up above VR",
-        mobPhoto: "/images/mobile/image-from-above.jpg"
+        mobPhoto: "https://sofyapim.github.io/Loopstudios-landing-page/images/mobile/image-from-above.jpg"
     },
     {
         title: "Pocket borealis",
-        mobPhoto: "/images/mobile/image-pocket-borealis.jpg"
+        mobPhoto: "https://sofyapim.github.io/Loopstudios-landing-page/images/mobile/image-pocket-borealis.jpg"
     },
     {
         title: "The curiosity",
-        mobPhoto: "/images/mobile/image-curiosity.jpg"
+        mobPhoto: "https://sofyapim.github.io/Loopstudios-landing-page/images/mobile/image-curiosity.jpg"
     },
     {
         title: "Make it fisheye",
-        mobPhoto: "/images/mobile/image-fisheye.jpg"
+        mobPhoto: "https://sofyapim.github.io/Loopstudios-landing-page/images/mobile/image-fisheye.jpg"
     },
 ];
 

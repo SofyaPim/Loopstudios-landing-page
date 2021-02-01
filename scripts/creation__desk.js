@@ -1,33 +1,33 @@
 const galleryCard = [{
         title: "Deep earth",
-        photo: "/images/desktop/image-deep-earth.jpg"
+        photo: "https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-deep-earth.jpg"
     },
     {
         title: "Night arcade",
-        photo: "/images/desktop/image-night-arcade.jpg"
+        photo: "https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-night-arcade.jpg"
     },
     {
         title: "Soccer team VR",
-        photo: "/images/desktop/image-soccer-team.jpg"
+        photo: "https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-soccer-team.jpg"
     },
     {
         title: "The grid",
-        photo: "/images/desktop/image-grid.jpg"
+        photo: "https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-grid.jpg"
     }, {
         title: "From up above VR",
-        photo: "/images/desktop/image-from-above.jpg"
+        photo: "https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-from-above.jpg"
     },
     {
         title: "Pocket borealis",
-        photo: "/images/desktop/image-pocket-borealis.jpg"
+        photo: "https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-pocket-borealis.jpg"
     },
     {
         title: "The curiosity",
-        photo: "/images/desktop/image-curiosity.jpg"
+        photo: "https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-curiosity.jpg"
     },
     {
         title: "Make it fisheye",
-        photo: "/images/desktop/image-fisheye.jpg"
+        photo: "https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-fisheye.jpg"
     },
 ];
 
