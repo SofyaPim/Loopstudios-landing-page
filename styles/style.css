@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Alata', sans-serif;
-  src: url("styles/fonts/Alata/Alata-Regular.ttf") format(ttf);
+  src: url("https://sofyapim.github.io/Loopstudios-landing-page/styles/fonts/Alata/Alata-Regular.ttf") format(ttf);
 }
 
 @font-face {
   font-family: 'Josefin Sans', sans-serif;
-  src: url("/styles/fonts/Josefin_Sans/static/JosefinSans-Light.ttf") format(ttf);
+  src: url("https://sofyapim.github.io/Loopstudios-landing-page/styles/fonts/Josefin_Sans/static/JosefinSans-Light.ttf") format(ttf);
 }
 
 *:root {
@@ -32,7 +32,7 @@ section {
 .logo {
   width: 12.9rem;
   height: 3.13em;
-  background-image: url("/images/logo.svg");
+  background-image: url("https://sofyapim.github.io/Loopstudios-landing-page/images/logo.svg");
   background-repeat: no-repeat;
   background-position: center center;
   z-index: 99;
@@ -88,7 +88,7 @@ section {
 }
 
 .hero {
-  background-image: url("/images/desktop/image-hero.jpg");
+  background-image: url("https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-hero.jpg");
   background-size: cover;
 }
 
@@ -236,7 +236,7 @@ section {
 .vr__img {
   width: 48.3rem;
   height: 32.5rem;
-  background-image: url("/images/desktop/image-interactive.jpg");
+  background-image: url("https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-interactive.jpg");
   background-position: 0 0;
 }
 

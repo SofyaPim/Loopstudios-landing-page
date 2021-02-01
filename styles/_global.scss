@@ -4,12 +4,12 @@ $DarkGray: hsl(0, 0%, 11%);
 $VeryDarkGray: hsl(0, 0%, 41%);
 @font-face {
    font-family: 'Alata', sans-serif;
-   src: url("styles/fonts/Alata/Alata-Regular.ttf") format(ttf);
+   src: url("https://sofyapim.github.io/Loopstudios-landing-page/styles/fonts/Alata/Alata-Regular.ttf") format(ttf);
 
 }
 @font-face {
    font-family: 'Josefin Sans', sans-serif;
-   src: url("/styles/fonts/Josefin_Sans/static/JosefinSans-Light.ttf") format(ttf);
+   src: url("https://sofyapim.github.io/Loopstudios-landing-page/styles/fonts/Josefin_Sans/static/JosefinSans-Light.ttf") format(ttf);
 }
 
 @mixin h2 {
@@ -46,7 +46,7 @@ section{
 .logo {
    width: 12.9rem;
    height: 3.13em;
-   background-image: url("/images/logo.svg");
+   background-image: url("https://sofyapim.github.io/Loopstudios-landing-page/images/logo.svg");
    background-repeat: no-repeat;
    background-position: center center;
    z-index: 99;
