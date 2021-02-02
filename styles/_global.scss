@@ -9,7 +9,7 @@ $VeryDarkGray: hsl(0, 0%, 41%);
 }
 @font-face {
    font-family: 'Josefin Sans', sans-serif;
-   src: url("https://sofyapim.github.io/Loopstudios-landing-page/styles/fonts/Josefin_Sans/static/JosefinSans-Light.ttf") format(ttf);
+   src: url("https://sofyapim.github.io/Loopstudios-landing-page/styles/fonts/Josefin_Sans/JosefinSans-Thin.ttf") format(ttf);
 }
 
 @mixin h2 {
@@ -17,6 +17,7 @@ $VeryDarkGray: hsl(0, 0%, 41%);
             font-weight: 100;
             font-size: 2.4rem;
             color:$DarkGray;
+            font-family: 'Josefin Sans', sans-serif;
 }
 
 
