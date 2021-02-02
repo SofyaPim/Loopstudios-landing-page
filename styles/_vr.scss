@@ -64,11 +64,12 @@
             left: 0;
             h2 {
                 @include h2;
+                font-size: 2rem;
             }
 
             p {
                 line-height: 2;
-                font-size: 1.5rem;
+                font-size: 1rem;
             }
         }
     }

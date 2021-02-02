@@ -83,7 +83,7 @@ section {
 
 @media all and (max-width: 1024px) {
   section {
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
   }
 }
 
@@ -206,6 +206,7 @@ section {
     font-size: 2.8rem;
     margin-bottom: 18rem;
     margin-top: 13rem;
+    letter-spacing: .5rem;
   }
 }
 
@@ -297,10 +298,11 @@ section {
     font-size: 2.4rem;
     color: #1c1c1c;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
   }
   .vr__text p {
     line-height: 2;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -462,6 +464,9 @@ section {
         align-self: flex-start;
     margin-bottom: 7.7rem;
   }
+  .creations__top a button {
+    font-size: 1rem;
+  }
   .creations__gallery {
     display: none;
   }
@@ -557,6 +562,7 @@ section {
   grid-row: 2/3;
   margin: 0;
   opacity: .5;
+  margin-bottom: 0;
 }
 
 @media all and (max-width: 600px) {
@@ -607,6 +613,7 @@ section {
         align-self: center;
     -ms-grid-column-align: center;
         justify-self: center;
+    margin-bottom: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
