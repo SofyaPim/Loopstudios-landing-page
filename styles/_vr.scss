@@ -7,7 +7,9 @@
         width: 48.3rem;
         height: 32.5rem;
         background-image: url("https://sofyapim.github.io/Loopstudios-landing-page/images/desktop/image-interactive.jpg");
-        background-position: 0 0;
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .container {
